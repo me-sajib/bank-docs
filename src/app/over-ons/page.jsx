@@ -7,7 +7,7 @@ export default function AboutUs() {
 
 			<div className="grid md:grid-cols-2 gap-12 items-center my-12">
 				<div className="relative h-64 md:h-96">
-					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk1orw58sF1YsDub-xRVeXiS_qh1nyI7ZEvQ&s" alt="Ons team" fill className="object-cover rounded-lg" />
+					<Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk1orw58sF1YsDub-xRVeXiS_qh1nyI7ZEvQ&s" alt="Ons team" fill className="object-cover rounded-lg" />
 				</div>
 				<div>
 					<h2 className="text-2xl font-bold text-teal-700 mb-4">Onze missie</h2>
@@ -67,7 +67,7 @@ export default function AboutUs() {
 					{[1, 2, 3].map((i) => (
 						<div key={i} className="card text-center">
 							<div className="relative h-40 w-40 mx-auto mb-4 rounded-full overflow-hidden">
-								<img
+								<Image
 									src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSlfS6ETT-HkZawX7WOyuA8U7d0JG-h11QoJ_OIiwbUsWVkz4w25ep4xVls0f9bNrdDP0&usqp=CAU"
 									alt={`Teamlid ${i}`}
 									fill

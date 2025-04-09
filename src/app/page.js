@@ -33,7 +33,7 @@ export default function Home() {
 						</div>
 					</div>
 					<div className="relative h-64 md:h-96">
-						<img
+						<Image
 							src="https://zakenn.nl/wp-content/uploads/2023/09/Schermafbeelding-2023-09-12-om-15.40.13-1089x730.jpg"
 							alt="Jongeren die samen werken"
 							fill
@@ -95,7 +95,7 @@ export default function Home() {
 							Werk vinden
 						</h3>
 						<p className="text-gray-600">
-							Ondersteuning bij het zoeken naar werk, het schrijven van CV's en
+							Ondersteuning bij het zoeken naar werk, het schrijven van CVs en
 							voorbereiding op sollicitatiegesprekken.
 						</p>
 					</div>
